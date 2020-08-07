@@ -1,24 +1,50 @@
-# README
+# Micro Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Purpose
 
-Things you may want to cover:
+> This is a project done with the aim of understanding how ActiveRecord works in rails.
 
-* Ruby version
+### Models Created and Associations
 
-* System dependencies
+- User model
+- Post model
+- Comment model
 
-* Configuration
+- User model has many posts
+- User model has many comments
+- Post model has many comment
+- Post model belongs to user
+- Comment model belongs to user
+- Comment model belongs to post
 
-* Database creation
+### Getting Started
 
-* Database initialization
+- Get a local copy of this repo
+  Open a terminal and run:`git clone git@github.com:OlawaleJoseph/micro-reddit.gitt`
+- Open a terminal and run `bunle install`
+- Run `yarn install --check-files`
+- Run `rails c`
+- Create the following Entities to test
+  - User (name: string)
+  - Post (body: string)
+  - Comment (body: string)
 
-* How to run the test suite
+## Contributor
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **James Kiptubei**
 
-* Deployment instructions
+- Github: [@kiptubei](https://github.com/kiptubei)
+- Linkedin: [james-kiptubei](https://www.linkedin.com/in/mark-james-k-aa875829/)
 
-* ...
+👤 **Adedeko Olawale**
+
+- Github: [@OlawaleJoseph](https://github.com/OlawaleJoseph)
+- Twitter: [@javanode123](https://twitter.com/javanode123)
+- Linkedin: [olawale-adedeko](http://www.linkedin.com/in/olawale-adedeko)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/OlawaleJoseph/telebot/issues).
+
+## Show your support
