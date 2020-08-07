@@ -1,18 +1,29 @@
-
 # Micro Reddit
 
 ## Purpose
 
 > This is a project done with the aim of understanding how ActiveRecord works in rails.
 
+### Models Created and Associations
+
+- User model
+- Post model
+- Comment model
+
+- User model has many posts
+- User model has many comments
+- Post model has many comment
+- Post model belongs to user
+- Comment model belongs to user
+- Comment model belongs to post
 
 ### Getting Started
 
 - Get a local copy of this repo
-  Open a terminal and run:```git clone git@github.com:OlawaleJoseph/micro-reddit.gitt```
-- Open a terminal and run ```bunle install```
-- Run ```yarn install --check-files```
-- Run ```rails c ```
+  Open a terminal and run:`git clone git@github.com:OlawaleJoseph/micro-reddit.gitt`
+- Open a terminal and run `bunle install`
+- Run `yarn install --check-files`
+- Run `rails c`
 - Create the following Entities to test
   - User (name: string)
   - Post (body: string)
